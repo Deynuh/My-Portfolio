@@ -167,7 +167,7 @@ export default function About() {
           </div>
 
           <p className="text-lg text-[#1E293B] leading-relaxed">
-            Hi! I&apos;m Dana, I&apos;m a University of British Columbia student majoring in Cognitive Systems and minoring in Applied Music Technology. 
+            Hi! I&apos;m Dana. I&apos;m a University of British Columbia student majoring in Cognitive Systems and minoring in Applied Music Technology. 
             I love coding, music, and gaming! Throughout my degree, I have created interactive sound experiences through coding and design, and I&apos;m currently expanding my skills toward game development. 
             Eventually, I want to bring creative systems to life in immersive, playable worlds! In my spare time nowadays, I like to read books and play PC games.</p>
         
