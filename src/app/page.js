@@ -42,10 +42,10 @@ export default function Home() {
           Dana Neria
         </h1>
         <p className="text-2xl md:text-3xl font-semibold text-[#2B6CB0] mb-4">
-          Developer • Creator
+          Creative Developer
         </p>
         <p className="text-lg md:text-xl text-[#1E293B] opacity-80 mb-12 max-w-2xl mx-auto">
-          Budding game developer with a passion for music and web technologies.
+          Budding game developer with a focus on Unity and a passion for music.
         </p>
 
         {/* Skills icons */}
