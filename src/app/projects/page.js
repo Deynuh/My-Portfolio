@@ -45,11 +45,24 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/deathkitchen.jpg",
         inDevelopment: true,
-        furtherInfo: "Recently joined and started collaborating with a small indie team to enhance character control systems and implement robust multiplayer functionality using Unity's Netcode for GameObjects. Focused on creating smooth, responsive gameplay mechanics that enhance the cooperative experience.",
+        furtherInfo: "Recently joined and started collaborating with a small indie team to enhance character control systems and implement multiplayer functionality in Unity. Focused on creating a smooth environment that enhances the horror experience and gameplay.",
         links: [
           { label: "Steam Page", url: "https://store.steampowered.com/app/3603380/Death_Kitchen/", iconImage: "/steam.png" }, 
           { label: "Studio Page", url: "https://www.gamedevelopment.ca/studio", icon: true}
         ]
+      },
+      {
+        title: "Across Waves",
+        description: "A short visual novel game about long distance relationships.",
+        tech: ["Unity", "C#", "Visual Novel"],
+        color: "from-emerald-500 to-teal-500",
+        image: "/acrosswaves.png",
+        inDevelopment: true,
+        furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developing all game mechanics, dialogue systems, and branching narratives using Unity and C#. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
+        links: [
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/Across-Waves", iconImage: "/github.png" },
+          { label: "Itch.io Page [Coming Soon!]", url: "https://deynuh.itch.io/across-waves", iconImage: "/itchio.png" } //uncomment when created
+        ],
       }
     ],
     webApps: [
@@ -58,7 +71,7 @@ function ProjectsContent() {
         description: "Legal workflow automation tool that syncs with Outlook calendars to streamline trial event management.",
         tech: ["Vue.js", "JavaScript", "Python", "HTML/CSS", "Outlook API"],
         color: "from-orange-500 to-amber-400",
-  image: "/DAhandler.png",
+        image: "/DAhandler.png",
         furtherInfo: "Developed the front-end component and a bit of the back-end component to ensure a pleasant user experience and seamless calendar integration for legal teams. Saves 10+ hours weekly for a team of 20+ legal professionals. For company privacy reasons, I am unable to provide links to the repository and app.",
       },
       {
