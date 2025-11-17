@@ -45,7 +45,7 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/deathkitchen.jpg",
         inDevelopment: true,
-        furtherInfo: "Recently joined and started collaborating with a small indie team to enhance character control systems and implement multiplayer functionality in Unity. Focused on creating a smooth environment that enhances the horror experience and gameplay.",
+        furtherInfo: "Recently joined and started collaborating with a small indie team to enhance character control systems and implement robust multiplayer functionality using Unity's Netcode for GameObjects. Focused on creating smooth, responsive gameplay mechanics that enhance the cooperative experience.",
         links: [
           { label: "Steam Page", url: "https://store.steampowered.com/app/3603380/Death_Kitchen/", iconImage: "/steam.png" }, 
           { label: "Studio Page", url: "https://www.gamedevelopment.ca/studio", icon: true}
@@ -61,54 +61,9 @@ function ProjectsContent() {
         furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developing all game mechanics, dialogue systems, and branching narratives using Unity and C#. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
         links: [
           { label: "GitHub Repo", url: "https://github.com/Deynuh/Across-Waves", iconImage: "/github.png" },
-          { label: "Itch.io Page [Coming Soon!]", url: "https://deynuh.itch.io/across-waves", iconImage: "/itchio.png" } //uncomment when created
+          { label: "Itch.io Page [Coming Soon!]", url: "https://deynuh.itch.io/across-waves", iconImage: "/itchio.png" }
         ],
       }
-    ],
-    webApps: [
-      {
-        title: "DAhandler",
-        description: "Legal workflow automation tool that syncs with Outlook calendars to streamline trial event management.",
-        tech: ["Vue.js", "JavaScript", "Python", "HTML/CSS", "Outlook API"],
-        color: "from-orange-500 to-amber-400",
-        image: "/DAhandler.png",
-        furtherInfo: "Developed the front-end component and a bit of the back-end component to ensure a pleasant user experience and seamless calendar integration for legal teams. Saves 10+ hours weekly for a team of 20+ legal professionals. For company privacy reasons, I am unable to provide links to the repository and app.",
-      },
-      {
-        title: "Litigation Checklist Calculator",
-        description: "Dates and deadlines calculator for legal teams that reduces scheduling conflicts during high-volume case periods.",
-        tech: ["React", "Vite", "HTML", "CSS"],
-        color: "from-orange-600 to-orange-400",
-        image: "/litchecklist.png",
-        furtherInfo: "Developed a responsive, user-friendly interface that accommodates the needs of legal professionals. Built in 3 days with a responsive, user-friendly interface for 20+ legal professionals. Ensured that special dates such as public holidays are taken into account.",
-        links: [
-          { label: "Website", url: "https://deynuh.github.io/Litigation-Checklist-Calculator/", icon: true},
-          { label: "GitHub Repo", url: "https://github.com/Deynuh/Litigation-Checklist-Calculator", iconImage: "/github.png"}
-        ]
-      },
-      {
-        title: "AMT Portfolio",
-        description: "Portfolio showcasing my works in Applied Music Technology.",
-        tech: ["React", "Vite", "HTML", "CSS"],
-        color: "from-amber-500 to-yellow-400",
-        image: "/amtportfolio.png",
-        furtherInfo: " My first attempt at creating a responsive website portfolio. Showcased my skills in web development and design through a personal portfolio website. Implemented responsive design principles to ensure a seamless experience across devices.",
-        links: [
-          { label: "Website", url: "https://deynuh.github.io/amt-portfolio/", icon: true},
-          { label: "GitHub Repo", url: "https://github.com/Deynuh/amt-portfolio", iconImage: "/github.png"}
-        ]
-      },
-      {
-        title: "What's Cookin'?",
-        description: "A recipe and restaurant manager that decides a user’s meal based on stored recipes and restaurants.",
-        tech: ["Java", "JUnit", "Swing GUI"],
-        color: "from-amber-500 to-yellow-400",
-        image: "/whatscookin.png",
-        furtherInfo: "Developed a Java Swing application that allows users to manage recipes and restaurants. Implemented a randomizatrion system that suggests meals based on saved restaurants and recipes.",
-        links: [
-          { label: "GitHub Repo", url: "https://github.com/Deynuh/WhatsCookin", iconImage: "/github.png"}
-        ]
-      },
     ],
     musicTech: [
       {
@@ -179,6 +134,52 @@ function ProjectsContent() {
           { label: "Performance Video", url: "https://www.youtube.com/watch?v=eNm__0OqPkI", iconImage: "/youtube.png"}
         ]
       }
+    ],
+    
+    webApps: [
+      {
+        title: "DAhandler",
+        description: "Legal workflow automation tool that syncs with Outlook calendars to streamline trial event management.",
+        tech: ["Vue.js", "JavaScript", "Python", "HTML/CSS", "Outlook API"],
+        color: "from-orange-500 to-amber-400",
+        image: "/DAhandler.png",
+        furtherInfo: "Developed the front-end component and a bit of the back-end component to ensure a pleasant user experience and seamless calendar integration for legal teams. Saves 10+ hours weekly for a team of 20+ legal professionals. For company privacy reasons, I am unable to provide links to the repository and app.",
+      },
+      {
+        title: "Litigation Checklist Calculator",
+        description: "Dates and deadlines calculator for legal teams that reduces scheduling conflicts during high-volume case periods.",
+        tech: ["React", "Vite", "HTML", "CSS"],
+        color: "from-orange-600 to-orange-400",
+        image: "/litchecklist.png",
+        furtherInfo: "Developed a responsive, user-friendly interface that accommodates the needs of legal professionals. Built in 3 days with a responsive, user-friendly interface for 20+ legal professionals. Ensured that special dates such as public holidays are taken into account.",
+        links: [
+          { label: "Website", url: "https://deynuh.github.io/Litigation-Checklist-Calculator/", icon: true},
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/Litigation-Checklist-Calculator", iconImage: "/github.png"}
+        ]
+      },
+      {
+        title: "AMT Portfolio",
+        description: "Portfolio showcasing my works in Applied Music Technology.",
+        tech: ["React", "Vite", "HTML", "CSS"],
+        color: "from-amber-500 to-yellow-400",
+        image: "/amtportfolio.png",
+        furtherInfo: " My first attempt at creating a responsive website portfolio. Showcased my skills in web development and design through a personal portfolio website. Implemented responsive design principles to ensure a seamless experience across devices.",
+        links: [
+          { label: "Website", url: "https://deynuh.github.io/amt-portfolio/", icon: true},
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/amt-portfolio", iconImage: "/github.png"}
+        ]
+      },
+      {
+        title: "What's Cookin'?",
+        description: "A recipe and restaurant manager that decides a user’s meal based on stored recipes and restaurants.",
+        tech: ["Java", "JUnit", "Swing GUI"],
+        color: "from-amber-500 to-yellow-400",
+        image: "/whatscookin.png",
+        furtherInfo: "Developed a Java Swing application that allows users to manage recipes and restaurants. Implemented a randomizatrion system that suggests meals based on saved restaurants and recipes.",
+        links: [
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/WhatsCookin", iconImage: "/github.png"}
+        ]
+      },
     ]
   };
 
@@ -231,8 +232,8 @@ function ProjectsContent() {
   const categories = [
     { id: 'all', label: 'All Projects' },
     { id: 'games', label: 'Games' },
+    { id: 'musicTech', label: 'Music Tech' },
     { id: 'webApps', label: 'Web & Apps' },
-    { id: 'musicTech', label: 'Music Tech' }
   ];
 
   const getProjectsToDisplay = () => {
