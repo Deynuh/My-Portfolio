@@ -58,7 +58,7 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/acrosswaves.png",
         inDevelopment: false,
-        furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developing all game mechanics, dialogue systems, and branching narratives using Unity and C#. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
+        furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developed all game mechanics, dialogue systems, and branching narratives using Unity and C#. Created all art used other than desktop background. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
         links: [
           { label: "GitHub Repo", url: "https://github.com/Deynuh/Across-Waves", iconImage: "/github.png" },
           { label: "Itch.io Page", url: "https://deynuh.itch.io/across-waves", iconImage: "/itchio.png" }
