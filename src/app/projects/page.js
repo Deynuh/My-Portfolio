@@ -45,10 +45,23 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/deathkitchen.jpg",
         inDevelopment: true,
-        furtherInfo: "Recently joined and started collaborating with a small indie team to enhance character control systems and implement robust multiplayer functionality using Unity's Netcode for GameObjects. Focused on creating smooth, responsive gameplay mechanics that enhance the cooperative experience.",
+        furtherInfo: "Collaborating with a small indie team to develop gameplay and design, such as enhancing the horror atmosphere. Focused on creating smooth, responsive gameplay mechanics that enhance the cooperative experience.",
         links: [
           { label: "Steam Page", url: "https://store.steampowered.com/app/3603380/Death_Kitchen/", iconImage: "/steam.png" }, 
           { label: "Studio Page", url: "https://www.gamedevelopment.ca/studio", icon: true}
+        ]
+      },
+      {
+        title: "Sicarius",
+        description: "Top-down 3D roguelike action game where you play as a robot spider.",
+        tech: ["Unity", "C#", "Top-down Shooter"],
+        color: "from-emerald-500 to-teal-500",
+        image: "/sicarius.png",
+        inDevelopment: true,
+        furtherInfo: "Currently responsible for developing boss behaviours and boss fight mechanics using Unity and C#.",
+        links: [
+          { label: "Unity Play Page", url: "https://play.unity.com/en/games/00ad4522-a218-4f64-b605-b7dbd2404ccf/sicarius-hku-student-project", iconImage: "/unity.png" }, 
+          { label: "Youtube Trailer", url: "https://www.youtube.com/watch?v=L7FWhhyqIIU", iconImage: "/youtube.png" }
         ]
       },
       {

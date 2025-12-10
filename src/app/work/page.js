@@ -3,10 +3,20 @@ import Link from 'next/link';
 export default function Work() {
   const workExperience = [
     {
-      title: "Unity Developer",
+      title: "Programmer and Level Designer",
+      company: "Nicknation Games",
+      period: "Nov 2025 - Present",
+      description: "Collaborating remotely with a primarily Hong Kong-based indie team to develop a top-down 3D roguelike action game.",
+      achievements: [
+        "Fixed gameplay bugs while maintaing code quality and smooth integration across time zones",
+        "Currently responsible for developing boss behaviours and boss fight mechanics using Unity and C#"
+      ]
+    },
+    {
+      title: "Programmer and Gameplay Designer",
       company: "Eternal Blaze Studios",
       period: "Oct 2025 - Present",
-      description: "Developing game experience with focus on multiplayer aspects and player engagement.",
+      description: "Developing game experience with focus on atmosphere, multiplayer aspects, and player engagement.",
       achievements: [
         "Recently joined the team to work on an exciting horror co-op game",
         "Collaborated with art team to brainstorm character designs"
