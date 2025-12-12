@@ -53,7 +53,7 @@ function ProjectsContent() {
       },
       {
         title: "Sicarius",
-        description: "Top-down 3D roguelike action game where you play as a robot spider.",
+        description: "Top-down 3D roguelike shooter game where you play as a robot spider.",
         tech: ["Unity", "C#", "Top-down Shooter"],
         color: "from-emerald-500 to-teal-500",
         image: "/sicarius.png",
