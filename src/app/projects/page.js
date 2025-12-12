@@ -65,6 +65,19 @@ function ProjectsContent() {
         ]
       },
       {
+        title: "Shoot Paralysis",
+        description: "A fast-paced 3D shooter mixing creepy and cute as you zap sleep paralysis ghosts from bed.",
+        tech: ["Unity", "C#", "3D Shooter"],
+        color: "from-emerald-500 to-teal-500",
+        image: "/shootParalysis.png",
+        inDevelopment: true,
+        furtherInfo: "A cartoony 3D “bed shooter” where you fend off silly-but-spooky sleep paralysis demons. Players can’t leave the bed, so they aim and zap approaching ghosts for 20 chaotic seconds. I built all core mechanics, ghost behaviors, and the stylized horror aesthetic using Unity and C#.",
+        links: [
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/20SecGame", iconImage: "/github.png" },
+          { label: "Itch.io Page [Coming Soon!]", url: "https://deynuh.itch.io/shoot-paralysis", iconImage: "/itchio.png" }
+        ],
+      },
+      {
         title: "Across Waves",
         description: "A short visual novel game about long distance relationships.",
         tech: ["Unity", "C#", "Visual Novel"],
