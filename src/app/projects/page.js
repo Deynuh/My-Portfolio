@@ -83,7 +83,7 @@ function ProjectsContent() {
         description: "A short visual novel game about long distance relationships.",
         tech: ["Unity", "C#", "Visual Novel"],
         color: "from-emerald-500 to-teal-500",
-        image: "/acrosswaves.png",
+        image: "/smallAcrossWaves.jpg",
         inDevelopment: false,
         furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developed all game mechanics, dialogue systems, and branching narratives using Unity and C#. Created all art used other than desktop background. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
         links: [
