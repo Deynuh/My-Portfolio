@@ -71,10 +71,11 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/smallShootParalysis.png",
         inDevelopment: true,
-        furtherInfo: "A cartoony 3D “bed shooter” where you fend off silly-but-spooky sleep paralysis demons. Players can’t leave the bed, so they aim and zap approaching ghosts for 20 chaotic seconds. I built all core mechanics, ghost behaviors, and the stylized horror aesthetic using Unity and C#.",
+        furtherInfo: "A cartoony 3D “bed shooter” where you fend off silly-but-spooky sleep paralysis demons. Players can’t leave the bed, so they aim and zap approaching ghosts for 20 chaotic seconds. I built all core mechanics, ghost behaviors, and the stylized horror aesthetic using Unity and C#. Created for the 20 Second Game Jam 2025.",
         links: [
-          { label: "GitHub Repo", url: "https://github.com/Deynuh/20SecGame", iconImage: "/github.png" },
-          { label: "Itch.io Page [Coming Soon!]", url: "https://deynuh.itch.io/shoot-paralysis", iconImage: "/itchio.png" }
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/20SecGame", iconImage: "/github.png"},
+          { label: "Game Jam Page [Coming Soon!]", url: "https://itch.io/jam/20-second-game-jam-2025", iconImage: "/itchio.png"},
+          { label: "Itch.io Page [Coming Soon!]", url: "https://deynuh.itch.io/", iconImage: "/itchio.png"}
         ],
       },
       {
@@ -87,6 +88,7 @@ function ProjectsContent() {
         furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developed all game mechanics, dialogue systems, and branching narratives using Unity and C#. Created all art used other than desktop background. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
         links: [
           { label: "GitHub Repo", url: "https://github.com/Deynuh/Across-Waves", iconImage: "/github.png" },
+          { label: "Game Jam Page", url: "https://itch.io/jam/game-off-2025/rate/4084821", iconImage: "/itchio.png" },
           { label: "Itch.io Page", url: "https://deynuh.itch.io/across-waves", iconImage: "/itchio.png" }
         ],
       }
