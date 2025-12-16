@@ -67,7 +67,7 @@ function ProjectsContent() {
       {
         title: "Shoot Paralysis",
         description: "A fast-paced 3D shooter mixing creepy and cute as you zap sleep paralysis ghosts from bed.",
-        tech: ["Unity", "C#", "3D Shooter"],
+        tech: ["Unity", "C#", "Web", "Windows", "3D Shooter"],
         color: "from-emerald-500 to-teal-500",
         image: "/smallShootParalysis.png",
         inDevelopment: false,
@@ -81,7 +81,7 @@ function ProjectsContent() {
       {
         title: "Across Waves",
         description: "A short visual novel game about long distance relationships.",
-        tech: ["Unity", "C#", "Visual Novel"],
+        tech: ["Unity", "C#", "Web","Visual Novel"],
         color: "from-emerald-500 to-teal-500",
         image: "/smallAcrossWaves.jpg",
         inDevelopment: false,
