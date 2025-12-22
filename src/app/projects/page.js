@@ -73,7 +73,7 @@ function ProjectsContent() {
         inDevelopment: false,
         furtherInfo: "A cartoony 3D “bed shooter” where you fend off silly-but-spooky sleep paralysis ghosts. Players can’t leave the bed, so they aim and zap approaching ghosts for 20 chaotic seconds. I built all core mechanics, ghost behaviors, and the stylized horror aesthetic using Unity and C#. Created for the 20 Second Game Jam 2025.",
         links: [
-          { label: "GitHub Repo", url: "https://github.com/Deynuh/20SecGame", iconImage: "/github.png"},
+          { label: "GitHub Repo", url: "https://github.com/Deynuh/Shoot-Paralysis", iconImage: "/github.png"},
           { label: "Game Jam Page", url: "https://itch.io/jam/20-second-game-jam-2025/rate/4124060", iconImage: "/itchio.png"},
           { label: "Itch.io Page", url: "https://deynuh.itch.io/shoot-paralysis", iconImage: "/itchio.png"}
         ],
