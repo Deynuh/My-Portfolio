@@ -56,17 +56,17 @@ export default function Home() {
             </div>
             <p className="mt-2 text-sm font-medium text-[#2B6CB0]">Game Dev</p>
           </Link>
-          <Link href="/projects?category=Web" className="group">
-            <div className="w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 cursor-pointer">
-              <Code className="w-8 h-8 text-orange-500" />
-            </div>
-            <p className="mt-2 text-sm font-medium text-[#2B6CB0]">Web Dev</p>
-          </Link>
           <Link href="/projects?category=Music" className="group">
             <div className="w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 cursor-pointer">
               <Music className="w-8 h-8 text-purple-500" />
             </div>
             <p className="mt-2 text-sm font-medium text-[#2B6CB0]">Music Tech</p>
+          </Link>
+          <Link href="/projects?category=Web" className="group">
+            <div className="w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300 cursor-pointer">
+              <Code className="w-8 h-8 text-orange-500" />
+            </div>
+            <p className="mt-2 text-sm font-medium text-[#2B6CB0]">Web Dev</p>
           </Link>
         </div>
 
