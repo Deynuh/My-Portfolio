@@ -79,6 +79,7 @@ function ProjectsContent() {
         tech: ["Unity", "C#", "Web", "Windows", "3D Shooter"],
         color: "from-emerald-500 to-teal-500",
         image: "/smallShootParalysis.png",
+        additionalImages: ["/SPscreenshot1.png", "/SPscreenshot2.png", "/SPscreenshot3.png", "/SPscreenshot4.png"],
         inDevelopment: false,
         furtherInfo: "A cartoony 3D “bed shooter” where you fend off silly-but-spooky sleep paralysis ghosts. Players can’t leave the bed, so they aim and zap approaching ghosts for 20 chaotic seconds. I built all core mechanics, ghost behaviors, and the stylized horror aesthetic using Unity and C#. Created for the 20 Second Game Jam 2025.",
         links: [
@@ -93,6 +94,7 @@ function ProjectsContent() {
         tech: ["Unity", "C#", "Web","Visual Novel"],
         color: "from-emerald-500 to-teal-500",
         image: "/smallAcrossWaves.jpg",
+        additionalImages: ["/AWscreenshot1.png", "/AWscreenshot2.png", "/AWscreenshot3.png", "/AWscreenshot4.png"],
         inDevelopment: false,
         furtherInfo: "Created for the GitHub Game Off 2025 jam with a theme of 'Waves'. Developed all game mechanics, dialogue systems, and branching narratives using Unity and C#. Created all art used other than desktop background. Focused on delivering an emotional storytelling experience that resonates with players navigating long-distance relationships.",
         links: [
@@ -388,7 +390,7 @@ function ProjectsContent() {
                 {/* Additional Images */}
                 {selectedProject.additionalImages && (
                   <div className="mb-6">
-                    <h3 className="text-xl font-semibold text-[#2B6CB0] mb-3">Interface Screenshots</h3>
+                    <h3 className="text-xl font-semibold text-[#2B6CB0] mb-3">Screenshots</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {selectedProject.additionalImages.map((imageSrc, i) => (
                         <div key={i} className="bg-gray-100 rounded-lg overflow-hidden">
