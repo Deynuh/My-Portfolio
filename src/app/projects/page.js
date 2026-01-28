@@ -10,6 +10,7 @@ function ProjectsContent() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [lightboxImage, setLightboxImage] = useState(null);
 
   useEffect(() => {
     const category = searchParams.get('category');
@@ -34,6 +35,14 @@ function ProjectsContent() {
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedProject(null);
+  };
+
+  const openLightbox = (imageSrc, title) => {
+    setLightboxImage({ src: imageSrc, title });
+  };
+
+  const closeLightbox = () => {
+    setLightboxImage(null);
   };
 
   const projectCategories = {
@@ -171,7 +180,8 @@ function ProjectsContent() {
         tech: ["Vue.js", "JavaScript", "Python", "HTML/CSS", "Outlook API"],
         color: "from-orange-500 to-amber-400",
         image: "/DAhandler.png",
-        furtherInfo: "Developed the front-end component and a bit of the back-end component to ensure a pleasant user experience and seamless calendar integration for legal teams. Saves 10+ hours weekly for a team of 20+ legal professionals. For company privacy reasons, I am unable to provide links to the repository and app.",
+        additionalImages: ["/DAHandlerSS.png", "/DAHandlerSS2.png"],
+        furtherInfo: "Developed the front-end component and a bit of the back-end component to ensure a pleasant user experience and seamless calendar integration for legal teams. Saves 10+ hours weekly for a team of 20+ legal professionals. Due to company privacy policies, I cannot show the actual live application, but I can share these interface screenshots that demonstrate the user experience and functionality.",
       },
       {
         title: "Litigation Checklist Calculator",
@@ -357,7 +367,8 @@ function ProjectsContent() {
                       alt={selectedProject.title}
                       loading="lazy"
                       decoding="async"
-                      className="w-full h-64 object-cover"
+                      className="w-full h-64 object-cover cursor-pointer"
+                      onClick={() => openLightbox(selectedProject.image, selectedProject.title)}
                     />
                     {selectedProject.photoCredits && (
                       <div className="mt-2 px-8 text-sm text-[#64748B]">
@@ -371,6 +382,27 @@ function ProjectsContent() {
                         </a>
                       </div>
                     )}
+                  </div>
+                )}
+
+                {/* Additional Images */}
+                {selectedProject.additionalImages && (
+                  <div className="mb-6">
+                    <h3 className="text-xl font-semibold text-[#2B6CB0] mb-3">Interface Screenshots</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {selectedProject.additionalImages.map((imageSrc, i) => (
+                        <div key={i} className="bg-gray-100 rounded-lg overflow-hidden">
+                          <img 
+                            src={imageSrc} 
+                            alt={`${selectedProject.title} screenshot ${i + 1}`}
+                            loading="lazy"
+                            decoding="async"
+                            className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
+                            onClick={() => openLightbox(imageSrc, `${selectedProject.title} - Screenshot ${i + 1}`)}
+                          />
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
 
@@ -444,6 +476,33 @@ function ProjectsContent() {
                     </div>
                   </div>
                 )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Lightbox */}
+        {lightboxImage && (
+          <div 
+            className="fixed inset-0 bg-black/90 z-[60] flex items-center justify-center p-4"
+            onClick={closeLightbox}
+          >
+            <div className="relative max-w-full max-h-full">
+              <button
+                onClick={closeLightbox}
+                className="absolute -top-12 right-0 text-white hover:text-gray-300 text-4xl font-light leading-none"
+                aria-label="Close"
+              >
+                ×
+              </button>
+              <img 
+                src={lightboxImage.src} 
+                alt={lightboxImage.title}
+                className="max-w-full max-h-full object-contain rounded-lg"
+                onClick={(e) => e.stopPropagation()}
+              />
+              <div className="absolute -bottom-12 left-0 text-white text-sm">
+                {lightboxImage.title}
               </div>
             </div>
           </div>
