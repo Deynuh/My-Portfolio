@@ -54,7 +54,7 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/deathkitchen.jpg",
         inDevelopment: true,
-        furtherInfo: "Collaborating with a small indie team to develop gameplay and design, such as enhancing the horror atmosphere. Focused on creating smooth, responsive gameplay mechanics that enhance the cooperative experience.",
+        furtherInfo: "Collaborating with a small indie team to develop gameplay and design, such as enhancing the horror atmosphere. Focused on creating smooth, responsive gameplay mechanics that enhance the cooperative experience. Currently working on revamping the user interface and improving overall game feel using Unity and C#.",
         links: [
           { label: "Steam Page", url: "https://store.steampowered.com/app/3603380/Death_Kitchen/", iconImage: "/steam.png" }, 
           { label: "Studio Page", url: "https://www.gamedevelopment.ca/studio", icon: true}
@@ -67,7 +67,7 @@ function ProjectsContent() {
         color: "from-emerald-500 to-teal-500",
         image: "/sicarius.png",
         inDevelopment: true,
-        furtherInfo: "Currently responsible for developing boss behaviours and boss fight mechanics using Unity and C#.",
+        furtherInfo: "Currently responsible for developing boss behaviours and boss fight mechanics using Unity and C#. Due to privacy reasons, I cannot share specific details or media from the game at this time. However, you can check out the Unity Play page and the YouTube trailer for more information about the game.",
         links: [
           { label: "Unity Play Page", url: "https://play.unity.com/en/games/00ad4522-a218-4f64-b605-b7dbd2404ccf/sicarius-hku-student-project", iconImage: "/unity.png" }, 
           { label: "Youtube Trailer", url: "https://www.youtube.com/watch?v=L7FWhhyqIIU", iconImage: "/youtube.png" }
